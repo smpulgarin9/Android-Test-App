@@ -3,6 +3,8 @@
 
 This project is an Android application built with Kotlin and Jetpack Compose. It utilizes modern Android development practices and architecture components to create a simple character browsing app. Below is an overview of the project's architecture, functionality, and key components.
 
+![ListVideo](assets/VideoGif.gif)
+
 ### Architecture
 
 The project follows the MVVM (Model-View-ViewModel) architecture pattern:
@@ -32,11 +34,6 @@ The project follows the MVVM (Model-View-ViewModel) architecture pattern:
 2. **Pagination**: Characters are fetched in pages, allowing the user to scroll infinitely to load more characters.
 
 3. **Offline Support**: The app stores fetched characters locally using Room database. If the device is offline, it retrieves characters from the local database instead of making network requests.
-
-### Screenshots
-![List](assets/List.png)
-![ListCard](assets/ListCard.png)
-![ListVideo](assets/VideoGif.gif)
 
 ### How to Run
 
